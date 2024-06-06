@@ -1,0 +1,26 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "This will be a page to describe a restaurant. Made to learn the use of Webpacks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnumaOub/Restaurant_Page.git"
+  },
+  "keywords": [
+    "webpacks",
+    "pachkages",
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "EnumaOub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnumaOub/Restaurant_Page/issues"
+  },
+  "homepage": "https://github.com/EnumaOub/Restaurant_Page#readme"
+}
