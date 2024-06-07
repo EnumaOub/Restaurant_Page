@@ -4,7 +4,10 @@
   "description": "This will be a page to describe a restaurant. Made to learn the use of Webpacks.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/EnumaOub/Restaurant_Page/issues"
   },
-  "homepage": "https://github.com/EnumaOub/Restaurant_Page#readme"
+  "homepage": "https://github.com/EnumaOub/Restaurant_Page#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
 }
