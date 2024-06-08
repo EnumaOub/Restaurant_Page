@@ -12,10 +12,10 @@ module.exports = {
       },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Development',
-            filename: 'index.html',
-            template: __dirname + '/src/index.html',
-        }),
+          title: 'The Reataurant',
+          filename: 'index.html',
+          template: __dirname + '/src/index.html',
+      }),
       ],
   output: {
     filename: '[name].bundle.js',
@@ -25,4 +25,16 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+    ]
+  }
 };
