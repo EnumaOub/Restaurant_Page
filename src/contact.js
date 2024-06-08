@@ -1,6 +1,8 @@
 
 
 
+
+
 export default function contactGen() {
     const container = document.createElement("card");
 

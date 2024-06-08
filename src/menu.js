@@ -90,9 +90,9 @@ const generatePage = (function() {
     }
 
     const initElements = () => {
-        container = document.createElement("div");
+        container = document.createElement("card");
         nav = document.createElement("nav");
-        tabContainer = document.createElement("div");
+        tabContainer = document.createElement("card");
         container.innerHTML = ""
         container.id = "menu-cont";
         createButtons();
