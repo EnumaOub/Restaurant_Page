@@ -8,6 +8,10 @@ const mealGeneration = (function(){
             this.name = name;
             this.price = price;
         }
+
+        getPrice() {
+            return `${this.price} silver coins`;
+        }
     }
 
     const meals = {
@@ -57,7 +61,7 @@ const generatePage = (function() {
         tabContainer.appendChild(title);
         for (let meal of arr) {
             const namePrice = document.createElement("card");
-            namePrice.innerHTML = `${meal.name} - ${meal.price} silver coins`
+            namePrice.innerHTML = `${meal.name} - ${meal.getPrice()}`
             tabContainer.appendChild(namePrice);
         }
         return tabContainer;

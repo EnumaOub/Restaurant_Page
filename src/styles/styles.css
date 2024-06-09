@@ -112,7 +112,7 @@ footer {
 
 main {
     min-height: 100dvh;
-    background-image: url(./media/bckg.jpg);
+    background-image: url(../assets/image/bckg.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,9 +1,8 @@
-import './styles.css';
+import './styles/styles.css';
 
-import menuGen from './menu.js';
-import homeGen from './home.js';
-import contactGen from './contact.js';
-
+import menuGen from './pages/menu.js';
+import homeGen from './pages/home.js';
+import contactGen from './pages/contact.js';
 
 
 const generatePage = (function() {

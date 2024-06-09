@@ -1,5 +1,5 @@
-import Restaurant from "./media/restaurant.jpeg";
-import Serving from './media/serving.jpeg'
+import Restaurant from "../assets/image/restaurant.jpeg";
+import Serving from '../assets/image/serving.jpeg'
 
 export default function homeGen() {
     const container = document.createElement("card");
